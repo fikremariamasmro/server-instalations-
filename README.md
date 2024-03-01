@@ -2,6 +2,13 @@
 
 sudo apt update 
 
+# Git
+sudo apt install git
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+
 #ZSH
 
 sudo apt install zsh
@@ -17,12 +24,6 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
 )
-
-# Git
-sudo apt install git
-
-git config --global user.name "Your Name"
-git config --global user.email "youremail@domain.com"
 
 # Nodejs
 
